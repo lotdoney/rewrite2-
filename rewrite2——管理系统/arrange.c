@@ -65,7 +65,7 @@ int main()
 				//和sacnf_s(Sex_array[sequence-1],3)
 				//第二个是字符串的比较，当s1<s2时，返回值<0
 				//当s1 = s2时，返回值 = 0;当s1 > s2时，返回值 > 0
-
+				 
 				printf("请再次输入性别，男或女：");
 				scanf_s("%s", Sex_array[sequence - 1], 3);
 			}
